@@ -1,24 +1,13 @@
 -- City Builder\main.lua --> the root-level file
 state = {}
 
-function clearLoveCallbacks()
-
-	love.draw = nil
-	love.load = nil
-	love.load = nil
-	love.mousereleased = nil
-	love.mousepressed = nil
-	love.keypressed = nil
-end
 
 function loadState(name)
 
-	state = {}
-	clearLoveCallbacks()
-	
-	local path = "states/"..name.."/main"
-	require(path)
+	local path = "states/"..name
+	m = require(path)
 	load()
+
 end
 
 function love.load()
@@ -27,12 +16,10 @@ function love.load()
 	imgPlane = love.graphics.newImage("states/assets/plane.png")
 	imgChicken = love.graphics.newImage("states/assets/birbdog.png")
 	
+	-- load game with splash screen as initial game state
 	loadState("splash")
 end
 
-function love.draw(dt)
-	love.graphics.draw(imgChicken)
-end
 
 function love.keypressed(key)
 	--if key == "d" then
