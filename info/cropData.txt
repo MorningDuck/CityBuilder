@@ -1,28 +1,10 @@
-Workshops are industrial builings where raw materials are turned 
-into finished goods. Workshops can spend time getting their own
-raw materials, or purchase them elsewhere. Specialized workshops
-are more efficient.
-
-Workshops produce goods by commission. If a workshop produces a
-surplus, the workshop owner may become a merchant and sell the
-excess goods. If a shop runs out of commissions, workers who
-are Tinkerers may do research.
-
-Citizens will automatically build workshops near raw resources 
-and labor. You can build guildhouses to discourage workshop
-owners from building near houses. Most workshops require
-road or rail access to receive deliveries of raw materials.
-
-Citizens might request subsidies for creating or maintaining
-workshops.
---------------------------------------------------------------------
 
 1 acre = 15 x 15 tiles @ 4m x 4m tiles
-112 days per year
+168 days per year [7 days per week, 2 weeks per month, 3 months per season, 4 seasons per year]
 
 
 Scavenging:
-	scavenge 126 x 126 tiles per season [4 weeks]
+	scavenge 126 x 126 tiles per season
 	gather 110% nutrition per season
 	100% labourers gathering raw materials
 	100% raw materials consumed by households
@@ -38,10 +20,14 @@ Farming:
 	80% raw materials consumed by households
 
 Bronze age: 
+
 Irrigation: 
+
 Iron age: plough 15 x 15 tiles in 1 week/laborer
-	Crop rotation:
-Steel: 15 x 15 tiles in 3 days
+
+Crop rotation:
+
+Steel: 15 x 15 tiles in 3 days (rich soil)
 
 --------------------------------------------------------------------
 

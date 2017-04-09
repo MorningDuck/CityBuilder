@@ -3,13 +3,13 @@ Economic states (commercial growth):
 
 Goats	(gift economy)
 Grain	(feudalism)
-Cash	(mercantilism)
-Debit	(capitalism)
+Cash	
+Debit	
 
 Food states (population growth):
 
 Scavenging
-Domestication
+Herding
 Grain
 Irrigation
 Crop rotation
