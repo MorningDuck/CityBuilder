@@ -1,4 +1,3 @@
--- City Builder 0.0 -- sheep trading
 -- City Builder\main.lua --> the root-level file
 state = {}
 
