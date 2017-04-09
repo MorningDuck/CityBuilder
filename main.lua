@@ -14,7 +14,7 @@ end
 function loadState(name)
 
 	state = {}
-	clearLoveCallbacks()
+	--clearLoveCallbacks()
 	
 	local path = "states/"..name.."/main"
 	require(path)
