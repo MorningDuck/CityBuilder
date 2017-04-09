@@ -17,7 +17,7 @@ function love.load()
 	imgChicken = love.graphics.newImage("states/assets/birbdog.png")
 	
 	-- load game with splash screen as initial game state
-	loadState("menu")
+	loadState("splash")
 end
 
 
