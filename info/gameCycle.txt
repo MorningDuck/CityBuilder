@@ -1,4 +1,6 @@
 
+
+
 Economic states (commercial growth):
 
 Goats	(gift economy)
@@ -8,7 +10,6 @@ Debit
 
 Food states (population growth):
 
-Scavenging
 Herding
 Grain
 Irrigation

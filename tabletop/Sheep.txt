@@ -1,0 +1,98 @@
+
+A tabletop game designed to simulate a gift economy. Give sheep to your rivals to encourage them to become your
+ally and give you their entire flock. React to gifts from rivals. Be careful - act too friendly, and you will 
+give away your entire flock; too rude, and the villagers will run you out of town, or your opponent will
+take all of their sheep to the next village in a huff.
+
+You need: 
+
+	* a six-sided die, a coin to flip, or any other simple random number generator
+	
+	* numbered playing cards (or any other counters numbered 1-9, with 1 representing an angry face and 
+		9 representing a friendly face). You need multiple sets of counters per player.
+		
+	* counters representing sheep (I used cards from Settlers of Cataan)
+	
+	* a way of representing the four seasons. Each season is associated with a special event:
+	
+		Summer: Flip a coin. If it comes up tails, remove one sheep from each flock.
+		Autumn: All lambs become sheep and are added to their player's hand. Feasts can only be held in Autumn.
+		Winter: Everyone has a -1 reaction to everyone else.
+		Spring: New lambs are added face-down to each flock. They do not enter play until the following Autumn. 
+			The number of new lambs will be your current flock x 1.5 (round down).
+
+----------------------------------------------------------------------------------------------------------------------------
+			
+Setup:
+
+	1. Decide on the number of rivals. There must be at least 1 NPC rival or at least 2 players.
+	
+		1a. Each NPC has a flock and a reaction to each active player
+		1b. Each player has a flock and a reaction to each rival (player and NPC).
+		1c. The village has a reaction to each player. The village is always an NPC.
+		
+	2. You need a set of counters from 1-9 for each "reaction". Every reaction begins at 5 (neutral).
+	
+	3. Everyone (except the village) begins with 4 sheep and no lambs in their flock. You may see how many sheep a 
+		rival has at any point in the game.
+	
+	4. The game begins in Summer.
+	
+----------------------------------------------------------------------------------------------------------------------------
+	
+WIN the game by removing all of your opponents. Players / NPCs leave the game when their reaction to an opponent is 
+		5 points friendlier than that opponent's reaction to them.
+	1. Rivals become allies and give you their entire flock if they have a reaction of 9 (friendliest) and 
+		you have a reaction of 5 (neutral) or lower.
+	2. Rivals take their flock with them in a huff if they have a reaction lower than 9 when they leave the game.
+	
+LOSE the game by:
+	1. Running out of sheep.
+	2. Letting the villager reaction reach 1 (angriest).
+	3. Having a reaction to an opponent that is 5 points friendlier than their reaction to you (ie become their ally).
+	
+----------------------------------------------------------------------------------------------------------------------------
+	
+Gameplay:
+	
+	1. Follow the instructions on the season card. 
+	
+	2. The first player picks one rival and give them any number of sheep from their flock. If it is Autumn, you may hold a 
+		feast by giving your gift to the village. Discard sheep given to the village.
+		
+		2a. Rivals will adjust their reactions according to the size of your gift.
+		
+			For NPCs:
+				Giftee:			+1 for every sheep given
+				Other rivals:	-1 for every 2 sheep given
+				All rivals:		+1 if you give to the village, regardless of gift size
+				
+		2b. Villagers will react -2 if you do not give any gifts during your turn, and -1 if you react negatively to an 
+			exchange between two other parties. They will react +1 for every sheep given during a feast.
+
+	3. Each player / NPC will give one gift to a rival. If you receive a gift, adjust your reaction to that rival. 
+		The village's reaction to you will adjust by (your reaction - the number of sheep given to you). You can
+		always react to an opponent if it is their turn, even if you do not receive a gift. Keep in mind this may anger the 
+		villagers. 
+			
+			For NPCs:
+				1. If the NPC has 1-2 sheep, take no action.
+				2. If it is Autumn, roll a die and give that many sheep to the feast.
+				3. Otherwise, pick the rival with the lowest reaction to the NPC and give them a random number of sheep.
+		
+		
+	4. Random event (optional game element): 
+		Roll a six-sided die and take action according to the result. The village will react to your	
+		decision (see the table). Discard sheep to sacrifice them. The number of sheep needed for the sacrifice is
+		equal to the number of active players (not NPCs).
+		All active players should decide together which action to take, and whose sheep to use.
+		
+			Roll	No reaction		Sacrifice
+			----	-----------		---------
+			1-2			-2				+0
+			3-4			-2				+2
+			5-6			+0				+2
+			
+	5. Turn to the next season and start the next round.
+			
+	
