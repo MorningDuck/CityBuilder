@@ -28,6 +28,6 @@ function love.keypressed(key)
 
 	if key == "escape" then
 		
-		loadState("main")
+		loadState("gameplay")
 	end
 end
