@@ -1,0 +1,97 @@
+Houses are places for citizens to live. Lower-level houses also function as
+workshops and shops. 
+
+Houses will upgrade when certain requirements are met. Upgraded houses 
+hold more citizens or are healthier and more pleasant to live in. When 
+a building's needs are no longer met, it will become run down and will 
+eventually be abandoned.
+
+You can use palace resources to build houses for your employees to live in.
+
+Citizens will automatically build houses in attractive areas. An area is more 
+attractive if it has more services and is close to resources, either from 
+natural sources or from a Commercial district. An area is less attractive
+if it is near noisy or smelly areas, such as workshops and middens.
+
+You can also create Residential districts by building residential walls.
+
+Citizens own their own houses. In multi-household residences, one resident 
+will have a "landlord" career. Citizens live either in family units or as 
+single adults. Single adults will take up "bed" slots in a building, and 
+families will take up "family" slots.
+
+Buildings have a limited life span and need to be renovated or replaced 
+periodically.
+
+****************** Citizen-created houses *********************
+
+*** House  - upgrade requirements (building size) ***
+
+Tent       - food, water, fuel (4 tiles, 1 family, 1 bed)
+Lean-to    - construction materials (4 tiles, 1 family, 1 bed)
+Hut        - no fuel gatherers (4 tiles + roof, 1 family, 2 beds)
+
+****************************************************************
+Need a fuel production industry
+
+Shack      - fuel (6 tiles, 1 family, 2 beds)
+Sturdy Hut - household goods 1 (4 tiles + roof, 1 family, 2 beds)
+Cottage    - no food gatherers (4 tiles + roof, 1 family, 2 beds)
+
+****************************************************************
+Need markets or shops
+
+Hovel - hygiene (4 tiles + roof, 1 family, 2 beds)
+
+Small lodge - cooked food, food garden (4 tiles + roof, 1 family, 2 beds) 
+Residence   - cooked food 2 (4 tiles x 2 stories, 1 family, 2 beds)
+Townhouse   - (4 tiles x 3 stories, 1 family, 3 beds)
+
+****************************************************************
+Need crowding
+
+Boarding house - cooked food 2 (4 tiles x 2 stories, 2 families, 8 beds)
+Tenement       - household goods 2, (4 tiles x 3 stories, 3 families, 12 beds)
+Apartments     - (4 tiles x 4 stories, 4 families, 16 beds)
+
+****************************************************************
+Need crowding
+
+Flophouse          - cooked food 2 (4 tiles x 2 stories, 4 families, 16 beds)
+Slum               - household goods 2 (4 tiles x 3 stories, 
+			6 families, 24 beds)
+Crowded apartments - skilled jobs(4 tiles x 4 stories, 8 families, 
+			32 beds) 
+Fancy apartments   - (4 tiles x 4 stories, 4 families, 8 beds)
+
+****************************************************************
+Need gardens or open areas
+
+Terraces  - household goods 2 (9 tiles x 4 stories, 12 families, 24 beds)
+Courtyard - skilled jobs (16 tiles x 4 stories, 16 families, 32 beds)
+Mansion   - appointment (16 tiles x 4 stories, 1 family, 1 bed)
+
+****************************************************************
+Need farming or boats
+
+Lodge     - large field / workload (4 tiles + roof, 1 family, 2 beds)
+Farmhouse - cash crops (9 tiles x 2 stories / 81 tiles farmland, 1 family, 
+		2 beds)
+Villa     - large area (16 tiles x 2 stories / 100 tiles, 1 family, 1 bed)
+Estate    - appointment (16 tiles x 2 stories / 144 tiles, 1 family, 1 bed)
+
+****************************************************************
+Need political rivals
+
+Palace - coup (16 tiles x 4 stories / 144 tiles, 1 family, 1 bed)
+
+******************** Player-created houses *********************
+
+Empty plot - needs residents (4 tiles, 0 families, 0 beds)
+Bivouac (Tent)
+Garrison (Hut)
+Barracks (Cottage)
+Officer's quarters (Townhouse)
+Courtier's apartments (Fancy apartments)
+Embassy (Mansion)
+

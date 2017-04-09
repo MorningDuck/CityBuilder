@@ -1,0 +1,15 @@
+
+   1	well
+
+ 150	midden
+
+ 250	herbalist
+
+ 450	tomb
+
+ 800	hospital
+
+1500	reservoir
+
+2800	baths
+

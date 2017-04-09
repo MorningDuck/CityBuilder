@@ -1,0 +1,103 @@
+The palace allows you to gain wealth and influence for your ruler. You need
+both wealth and influence to govern your city effectively.
+
+Wealth is measured in baskets of grain, silver cash or paper debits depending 
+on the tech level of the city. Wealth is needed to purchase new buildings and 
+pay wages. Gain wealth by imposing taxes on citizens.
+
+Influence is leveraged using courtiers (to manage culture and technology),
+advisors (to improve citizen happiness and manage infrastructure), the 
+military (to improve respect from citizens and foreigners, and to protect the 
+city), and diplomats (to manage relationships and trade with foreign cities).
+
+Cities with low-level tech use livestock both measure wealth and 
+determine cultural influence. You can have a military at any tech level.
+
+Upgrading the palace allows you to hire more courtiers and advisors, entertain
+more diplomats, and upgrade your city's currency. Palace upgrades are
+buildings which must be placed adjacent or near the palace.
+
+******Palace upgrade tree******
+
+*******************************
+
+Basic palace (12 tiles) - REQUIRED FOR ALL OTHER BUILDINGS
+
+	- avatar (your ruler)
+	- up to 5 military (including 1 advisor)
+	- up to 6 animals
+
+Council room (4 tiles)
+
+	- +1 advisor
+	- see citizen happiness
+	- see tech tree
+	- see citizen needs and building requests
+
+Pavilion (16 tiles)
+	
+	- +1 advisor (culture)
+	- entertain citizens at the palace
+	- declare festivals
+
+Barn (6 tiles)
+	
+	- +12 animals
+
+********************************
+
+Requires council room:
+
+Throne room (0 tiles, upgrade roof)
+
+	- +1 advisor
+	- hear cases to reduce Strife
+	- receive up to 1 foreign diplomat
+	- emergency and risk notifications
+
+********************************
+
+Requires cultural advisor:
+
+Shrine (4 tiles)
+
+	- +1 advisor (religion)
+	- up to 2 additional priests (2 additional deities)
+	- official religion
+
+Great hall (6 tiles)
+	
+	- +3 advisors
+	- +3 foreign diplomats
+
+*********************************
+
+Requires at least 2 advisors:
+
+Granary (9 tiles) - GRAIN
+
+	- up to 4 labourers
+	- +1 advisor (treasurer)
+	- collect taxes
+	- pay weekly wages
+	- food storage
+
+*********************************
+
+Requires treasurer:
+
+Gardens (6 tiles)
+
+	- up to 4 courtiers
+
+*********************************
+
+Requires diplomat (trade):
+
+Mint (4 tiles) - CASH
+
+*********************************
+
+Requires ????:
+
+Accountant's office (4 tiles) - DEBIT

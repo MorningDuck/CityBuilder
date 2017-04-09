@@ -1,0 +1,17 @@
+Workshops are industrial builings where raw materials are turned 
+into finished goods. Workshops can spend time getting their own
+raw materials, or purchase them elsewhere. Specialized workshops
+are more efficient.
+
+Workshops produce goods by commission. If a workshop produces a
+surplus, the workshop owner may become a merchant and sell the
+excess goods. If a shop runs out of commissions, workers who
+are Tinkerers may do research.
+
+Citizens will automatically build workshops near raw resources 
+and labor. You can build guildhouses to discourage workshop
+owners from building near houses. Most workshops require
+road or rail access to receive deliveries of raw materials.
+
+Citizens may request subsidies for creating or maintaining
+workshops.

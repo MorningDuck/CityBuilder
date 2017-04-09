@@ -1,0 +1,79 @@
+
+Economic states (commercial growth):
+
+Goats	(gift economy)
+Grain	(feudalism)
+Cash	(mercantilism)
+Debit	(capitalism)
+
+Food states (population growth):
+
+Scavenging
+Domestication
+Grain
+Irrigation
+Crop rotation
+
+Manufacture states (economic growth):
+
+Stone & clay
+Bronze
+Iron
+Steel
+Steam
+
+----------------------------------------------------------------
+
+Information overlays (decreased involvement from PALACE UPGRADES):
+
+Random message encounters --> minigame (throne room)
+Fluff messages --> Chief advisor (happiness overview)
+	Court cases --> judge
+Emergency notifications --> military or service assignments
+	Predators / bandits --> guards
+	Fire --> firehouse / bucket chain
+	Invasion (signficant threat) --> officers
+	Crime --> police
+Collect innovations from workshops --> courtiers
+Manual sacrifices / festivals --> priests
+Manual gifts / diplomatic missions --> diplomats
+Assign individual soldiers --> generals
+Assign individual workers --> beaurocracy
+	Manual taxes / resources --> tax collector
+
+----------------------------------------------------------------
+
+Planning tools (increased involvement from POPULATION):
+
+Combined RCI --> seperate RCI --> build town walls
+Paths --> build roads --> manage roads
+Middens --> public health
+
+---------------------------------------------------------------
+
+Monuments (decreased involvement from TECHNOLOGY):
+
+Manually assign labourers & resources --> foremen --> land requests
+
+Tomb **
+Farm
+Large workshop
+Ship **
+Lighthouse
+Mountain pass *
+Statue
+Temple **
+City wall
+Great library *
+School **
+Park  / Arena
+Theater
+Canal *
+Water / Sewer system
+Bridge
+Factory
+Railroad *
+Skyscraper
+
+* Collaborate with other cities
+** Heroic quest
