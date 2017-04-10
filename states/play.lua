@@ -5,6 +5,8 @@ local play = {}
 local plane = {}
 function play:enter()
 
+	state = 'play'
+
 	love.graphics.setBackgroundColor(70,130,230)
 	plane = {
 		img = imgPlane,
@@ -32,6 +34,9 @@ function play:keyreleased(key)
 	if key == "escape" then
 		--print("keypress: esc")
 		Gamestate.switch(menu)
+		
+	elseif key == "space" then
+		Gamestate.switch(pause)
 		
 	end
 end

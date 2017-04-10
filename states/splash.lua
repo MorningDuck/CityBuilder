@@ -4,6 +4,8 @@ local splash = {}
 
 function splash:enter()
 
+	state = 'splash'
+
 	love.graphics.setBackgroundColor(200,50,50)
 end
 
@@ -19,9 +21,9 @@ end
 
 -- use escape key to bring up the menu
 
-function splash:keyreleased(key)
+function splash:mousereleased(key)
 
-	if key == "escape" then
+	if state == "splash" then
 		--print("keypress: esc")
 		Gamestate.switch(menu)
 		
