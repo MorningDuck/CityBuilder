@@ -5,8 +5,6 @@ local play = {}
 local plane = {}
 function play:enter()
 
-	state = 'play'
-
 	love.graphics.setBackgroundColor(70,130,230)
 	plane = {
 		img = imgPlane,
@@ -16,8 +14,8 @@ end
 
 function play:update(dt)
 
-	plane.X = plane.X + (50 * dt)
-	plane.Y = plane.Y + (50 * dt)
+	plane.X = plane.X + (150 * dt)
+	plane.Y = plane.Y + (150 * dt)
 
 end
 

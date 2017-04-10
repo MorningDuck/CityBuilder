@@ -8,8 +8,6 @@ menu = require("states/menu")
 play = require("states/play")
 pause = require("states/pause")
 
-state = ''
-
 local splash = require("states/splash") --splash screen for loading
 
 

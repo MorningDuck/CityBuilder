@@ -4,8 +4,6 @@ local splash = {}
 
 function splash:enter()
 
-	state = 'splash'
-
 	love.graphics.setBackgroundColor(200,50,50)
 end
 

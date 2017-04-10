@@ -3,18 +3,11 @@
 local pause = {}
 
 function pause:enter()
-	state = 'pause'
-
-end
-
-function pause:update(dt)
-
-
 end
 
 
 function pause:draw(dt)
-	love.graphics.print("Paused",300,300,0,3,3)
+	love.graphics.print("Paused",300,300,0,1.5,1.5)
 end
 
 function pause:keyreleased(key)
