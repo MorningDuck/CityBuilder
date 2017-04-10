@@ -1,4 +1,4 @@
--- the Menu state for City Builder (gamesStates branch)
+-- the Menu state for City Builder
 
 local menu = {}
 

@@ -2,7 +2,6 @@
 
 local play = {}
 
-
 local plane = {}
 function play:enter()
 

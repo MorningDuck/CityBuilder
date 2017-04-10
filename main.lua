@@ -3,9 +3,10 @@
 
 
 Gamestate = require("states/gamestate")
+
 menu = require("states/menu")
--- local menu = {}
 play = require("states/play")
+
 local splash = require("states/splash")
 
 function love.load()
