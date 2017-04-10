@@ -19,9 +19,9 @@ end
 
 -- use escape key to bring up the menu
 
-function splash:keyreleased(key)
+function splash:mousereleased(key)
 
-	if key == "escape" then
+	if state == "splash" then
 		--print("keypress: esc")
 		Gamestate.switch(menu)
 		

@@ -14,8 +14,8 @@ end
 
 function play:update(dt)
 
-	plane.X = plane.X + (50 * dt)
-	plane.Y = plane.Y + (50 * dt)
+	plane.X = plane.X + (150 * dt)
+	plane.Y = plane.Y + (150 * dt)
 
 end
 
@@ -32,6 +32,9 @@ function play:keyreleased(key)
 	if key == "escape" then
 		--print("keypress: esc")
 		Gamestate.switch(menu)
+		
+	elseif key == "space" then
+		Gamestate.switch(pause)
 		
 	end
 end
