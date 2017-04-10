@@ -25,7 +25,7 @@ You need:
 			
 Setup:
 
-	1. Decide on the number of rivals. There must be at least 1 NPC rival or at least 2 players.
+	1. Decide on the number of players. Recommended: 3 players
 	
 		1a. Each NPC has a flock and a reaction to each active player
 		1b. Each player has a flock and a reaction to each rival (player and NPC).
@@ -40,16 +40,19 @@ Setup:
 	
 ----------------------------------------------------------------------------------------------------------------------------
 	
-WIN the game by removing all of your opponents. Players / NPCs leave the game when their reaction to an opponent is 
-		5 points friendlier than that opponent's reaction to them.
-	1. Rivals become allies and give you their entire flock if they have a reaction of 9 (friendliest) and 
-		you have a reaction of 5 (neutral) or lower.
-	2. Rivals take their flock with them in a huff if they have a reaction lower than 9 when they leave the game.
+WIN the game by removing all of your opponents from the game. You can do this by befriending them, driving them off, or 
+	allowing them to lose all their sheep.
+		
+	1. Rivals become allies and combine flocks if they both a reaction of 9 (friendliest).
+		The new allies also decide whose reactions to use for the remainder of the game.
+		You must all reactions from 1 player - no picking and choosing.
+	2. A player leaves the game, and takes their flock with them, if their reaction is 5 friendlier than another
+		player's.
 	
 LOSE the game by:
 	1. Running out of sheep.
-	2. Letting the villager reaction reach 1 (angriest).
-	3. Having a reaction to an opponent that is 5 points friendlier than their reaction to you (ie become their ally).
+	2. Letting the villager reaction towards you reach 1 (angriest).
+	3. Having an opponent who is 5 points angrier towards you than you are towards them.
 	
 ----------------------------------------------------------------------------------------------------------------------------
 	
@@ -57,35 +60,36 @@ Gameplay:
 	
 	1. Follow the instructions on the season card. 
 	
-	2. The first player picks one rival and give them any number of sheep from their flock. If it is Autumn, you may hold a 
-		feast by giving your gift to the village. Discard sheep given to the village.
+	2. Player 1 picks one rival and give them any number of sheep from their flock. If it is Autumn, Player 1 may hold a 
+		feast by giving your gift to the village. Discard any sheep given to the village.
 		
-		2a. Rivals will adjust their reactions according to the size of your gift.
+		For NPCs:
+				1. If the NPC has 1-2 sheep, take no action.
+				2. If it is Autumn, roll a die and give that many sheep to the feast.
+				3. Otherwise, pick the rival with the lowest reaction to the NPC and give them a random number of sheep.
+	
+
+	3. All other players have a chance to react to Player 1's gift. 
+		The village's reaction to each player will adjust by (their reaction - the number of sheep given to them). You can
+		always react to an opponent on their turn, even if you do not receive a gift. Keep in mind that pettiness angers the 
+		villagers.
 		
 			For NPCs:
 				Giftee:			+1 for every sheep given
 				Other rivals:	-1 for every 2 sheep given
 				All rivals:		+1 if you give to the village, regardless of gift size
 				
-		2b. Villagers will react -2 if you do not give any gifts during your turn, and -1 if you react negatively to an 
+			Villagers will react -2 if you do not give any gifts during your turn, and -1 if you react negatively to an 
 			exchange between two other parties. They will react +1 for every sheep given during a feast.
-
-	3. Each player / NPC will give one gift to a rival. If you receive a gift, adjust your reaction to that rival. 
-		The village's reaction to you will adjust by (your reaction - the number of sheep given to you). You can
-		always react to an opponent if it is their turn, even if you do not receive a gift. Keep in mind this may anger the 
-		villagers. 
 			
-			For NPCs:
-				1. If the NPC has 1-2 sheep, take no action.
-				2. If it is Autumn, roll a die and give that many sheep to the feast.
-				3. Otherwise, pick the rival with the lowest reaction to the NPC and give them a random number of sheep.
+	4. Each player / NPC will give one gift to a rival. 
 		
-		
-	4. Random event (optional game element): 
+	5. Random event (optional game element): 
 		Roll a six-sided die and take action according to the result. The village will react to your	
 		decision (see the table). Discard sheep to sacrifice them. The number of sheep needed for the sacrifice is
 		equal to the number of active players (not NPCs).
 		All active players should decide together which action to take, and whose sheep to use.
+		If players cannot reach an agreement, final say goes to the player with the friendliest village reaction.
 		
 			Roll	No reaction		Sacrifice
 			----	-----------		---------
@@ -93,6 +97,6 @@ Gameplay:
 			3-4			-2				+2
 			5-6			+0				+2
 			
-	5. Turn to the next season and start the next round.
+	6. Turn to the next season and start the next round.
 			
 	
