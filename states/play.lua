@@ -1,5 +1,7 @@
 -- the main gameplay state for City Builder
 
+encounter = require("states/events/encounter")
+
 local play = {}
 
 local plane = {}
@@ -22,15 +24,13 @@ end
 
 function play:draw(dt)
 	love.graphics.draw(plane.img, plane.X,plane.Y)
+	encounter.draw()
 end
-
-
--- use escape key to bring up the menu
 
 function play:keyreleased(key)
 
+	-- use escape key to bring up the menu
 	if key == "escape" then
-		--print("keypress: esc")
 		Gamestate.switch(menu)
 		
 	elseif key == "space" then
