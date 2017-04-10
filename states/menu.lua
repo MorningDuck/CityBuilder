@@ -1,14 +1,14 @@
 -- the Menu state for City Builder (gamesStates branch)
 
-function load()
+local menu = {}
+
+function menu:enter()
 	
 	love.graphics.setBackgroundColor(20,200,150)
-	
-	--imgMenu = love.graphics.newImage("City Builder/assets/menu.png")
 
 end
 
-function love.update(dt)
+function menu:update(dt)
 
 end
 	
@@ -18,16 +18,17 @@ local function drawButtons(x, y, width, height)
 	love.graphics.draw(imgMenu, 150, 150)
 end
 
-function love.draw(dt)
+function menu:draw(dt)
 	drawButtons()
 
 -- use for loop with ipairs to iterate through multiple buttons
 end
 
-function love.keypressed(key)
+function love.keyreleased(key)
 
-	if key == "escape" then
-		
-		loadState("gameplay")
+	if key == "space" then
+		Gamestate.switch(play)
 	end
 end
+
+return menu
