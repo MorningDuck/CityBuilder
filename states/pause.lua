@@ -14,7 +14,7 @@ end
 
 
 function pause:draw(dt)
-	--love.graphics.draw(plane.img, plane.X,plane.Y)
+	love.graphics.print("Paused",300,300,0,3,3)
 end
 
 function pause:keyreleased(key)
