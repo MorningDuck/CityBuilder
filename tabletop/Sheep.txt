@@ -1,6 +1,8 @@
 
+# Version 0.4 9-Apr-2017
+
 A tabletop game designed to simulate a gift economy. Give sheep to your rivals to encourage them to become your
-ally and give you their entire flock. React to gifts from rivals. Be careful - act too friendly, and you will 
+ally and give you their entire flock. React to gifts from rivals. Be careful - act too friendly, and you may 
 give away your entire flock; too rude, and the villagers will run you out of town, or your opponent will
 take all of their sheep to the next village in a huff.
 
