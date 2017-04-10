@@ -2,23 +2,11 @@
 
 local menu = {}
 
-local playButton = {
-					x = 300,
-					y = 200,
-					img = imgPlay,
-					width = imgPlay:getWidth(),
-					height = imgPlay:getHeight()}
-					
-local quitButton = {
-					x = 300,
-					y = 350,
-					img = imgQuit,
-					width = imgQuit:getWidth(),
-					height = imgQuit:getHeight()}
+local buttonX 	= 300
+local playY 	= 200
+local quitY 	= 350
 
 function menu:enter()
-
-	state = 'menu'
 	
 	love.graphics.setBackgroundColor(20,200,150)
 
@@ -29,11 +17,11 @@ function menu:update(dt)
 end
 
 function menu:draw(dt)
-	love.graphics.draw(playButton.img,playButton.x,playButton.y)
-	love.graphics.draw(quitButton.img,quitButton.x,quitButton.y)
+	love.graphics.draw(imgPlay,buttonX,playY)
+	love.graphics.draw(imgQuit,buttonX,quitY)
 end
 
--- boolean: is the mouse in the play button?
+-- boolean: is mx, my in the parameters?
 local function inBox(x,y,width,height,mx,my)
 
 	inbox = false
@@ -45,10 +33,14 @@ local function inBox(x,y,width,height,mx,my)
 	return inbox
 end
 
-function menu:mousereleased(x,y)
+function menu:mousereleased(mx,my)
 
-	if inBox(playButton.x, playButton.y,playButton.width,playButton.height,x,y) then
+	if inBox(buttonX,playY,imgPlay:getWidth(),imgPlay:getHeight(),mx,my) then
 		Gamestate.switch(play)
+	end
+	
+	if inBox(buttonX,quitY,imgQuit:getWidth(),imgQuit:getHeight(),mx,my) then
+		love.event.quit()
 	end
 end
 
