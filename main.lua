@@ -14,7 +14,7 @@ function love.load()
 	-- load game textures here
 	imgMenu = love.graphics.newImage("states/assets/menu.png")
 	imgPlane = love.graphics.newImage("states/assets/plane.png")
-	imgChicken = love.graphics.newImage("states/assets/birbdog.png")
+	imgSplash = love.graphics.newImage("states/assets/splash.png")
 	
 	-- load game with splash screen as initial game state
 	loadState("splash")

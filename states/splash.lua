@@ -11,7 +11,7 @@ end
 
 
 function love.draw(dt)
-	love.graphics.draw(imgChicken,10,10)
+	love.graphics.draw(imgSplash,100,100)
 end
 
 

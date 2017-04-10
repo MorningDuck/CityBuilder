@@ -1,7 +1,7 @@
 The palace allows you to gain wealth and influence for your ruler. You need
 both wealth and influence to govern your city effectively.
 
-Wealth is measured in baskets of grain, silver cash or paper debits depending 
+Wealth is measured in acres of land, silver cash or paper debits depending 
 on the tech level of the city. Wealth is needed to purchase new buildings and 
 pay wages. Gain wealth by imposing taxes on citizens.
 
