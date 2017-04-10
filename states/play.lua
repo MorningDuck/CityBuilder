@@ -1,7 +1,10 @@
 -- the main gameplay state for City Builder
-plane = {}
 
-function load()
+local play = {}
+
+
+local plane = {}
+function play:enter()
 
 	love.graphics.setBackgroundColor(70,130,230)
 	plane = {
@@ -10,7 +13,7 @@ function load()
 		Y = 200}
 end
 
-function love.update(dt)
+function play:update(dt)
 
 	plane.X = plane.X + (50 * dt)
 	plane.Y = plane.Y + (50 * dt)
@@ -18,18 +21,20 @@ function love.update(dt)
 end
 
 
-function love.draw(dt)
+function play:draw(dt)
 	love.graphics.draw(plane.img, plane.X,plane.Y)
 end
 
 
 -- use escape key to bring up the menu
 
-function love.keypressed(key)
+function play:keyreleased(key)
 
 	if key == "escape" then
 		--print("keypress: esc")
-		loadState("menu")
+		Gamestate.switch(menu)
 		
 	end
 end
+
+return play

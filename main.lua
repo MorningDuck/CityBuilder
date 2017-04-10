@@ -1,14 +1,12 @@
 -- City Builder\main.lua --> the root-level file
-state = {}
 
 
-function loadState(name)
 
-	local path = "states/"..name
-	m = require(path)
-	load()
-
-end
+Gamestate = require("states/gamestate")
+menu = require("states/menu")
+-- local menu = {}
+play = require("states/play")
+local splash = require("states/splash")
 
 function love.load()
 	-- load game textures here
@@ -17,13 +15,18 @@ function love.load()
 	imgSplash = love.graphics.newImage("states/assets/splash.png")
 	
 	-- load game with splash screen as initial game state
-	loadState("splash")
+	Gamestate.registerEvents()
+	Gamestate.switch(menu)
 end
 
+-- function menu:draw(dt)
+	-- love.graphics.draw(imgMenu)
+-- end
 
-function love.keypressed(key)
-	--if key == "d" then
-	--	debug.debug()
-	--end
+-- function love.keypressed(key)
 
-end
+	-- if key == "escape" then
+		-- Gamestate.switch(menu)
+	-- end
+	
+-- end
