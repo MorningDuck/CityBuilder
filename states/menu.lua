@@ -12,16 +12,7 @@ function menu:enter()
 
 end
 
-function menu:update(dt)
-
-end
-
-function menu:draw(dt)
-	love.graphics.draw(imgPlay,buttonX,playY)
-	love.graphics.draw(imgQuit,buttonX,quitY)
-end
-
--- boolean: is mx, my in the parameters?
+-- boolean: is (mx, my) in the parameters?
 local function inBox(x,y,width,height,mx,my)
 
 	inbox = false
@@ -31,6 +22,30 @@ local function inBox(x,y,width,height,mx,my)
 	end
 	
 	return inbox
+end
+
+local function drawButtons()
+
+	mx, my = love.mouse.getPosition()
+	
+	-- Draw the "hover" versions of menu buttons when the mouse is over them
+	if inBox(buttonX,playY,imgPlay:getWidth(),imgPlay:getHeight(),mx,my) then
+		love.graphics.draw(imgPlayHover,buttonX,playY) -- mouse hover
+		love.graphics.draw(imgQuit,buttonX,quitY)		-- default
+		
+	elseif inBox(buttonX,quitY,imgQuit:getWidth(),imgQuit:getHeight(),mx,my) then
+		love.graphics.draw(imgPlay,buttonX,playY) --default
+		love.graphics.draw(imgQuitHover,buttonX,quitY) -- mouse hover version
+	else
+		-- default menu buttons
+		love.graphics.draw(imgPlay,buttonX,playY)
+		love.graphics.draw(imgQuit,buttonX,quitY)
+	end
+
+end
+
+function menu:draw(dt)
+	drawButtons()
 end
 
 function menu:mousereleased(mx,my)
